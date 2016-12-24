@@ -3,3 +3,7 @@
 <step outcome="successful">Given I open url &quot;http://rozetka.com.ua/&quot;</step>
 <step outcome="successful">And I open smartphones section</step>
 <step outcome="successful">And I open affordable smartphones section</step>
+<step outcome="successful">And I sort affordable smartphones by price ascending</step>
+<step outcome="successful">And I save data for 3 devices from 3 pages into file</step>
+</scenario>
+</story>
