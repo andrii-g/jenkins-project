@@ -1,0 +1,49 @@
+<html>
+<head>
+<title>rozetka</title>
+<style type="text/css" media="all">
+@import url( "./style/jbehave-core.css" );
+</style>
+</head>
+<body>
+<div class="story">
+<h1></h1>
+<div class="path">rozetka.story</div>
+<div class="scenario">
+<h2>Scenario: save cheapest devices data into file</h2>
+</div>
+<div class="scenario">
+<h2>Scenario: save cheapest devices data into database</h2>
+<div class="step successful">Given I open url &quot;http://rozetka.com.ua/&quot;</div>
+<div class="step successful">And I open smartphones section</div>
+<div class="step successful">And I open affordable smartphones section</div>
+<div class="step successful">And I sort affordable smartphones by price ascending</div>
+<div class="step successful">And I save data for 3 devices from 3 pages into databse</div>
+<div class="step successful">When I click buy button for first device</div>
+<div class="step successful">Then recommendations block should contain text &quot;&#1042;&#1084;&#1077;&#1089;&#1090;&#1077; &#1076;&#1077;&#1096;&#1077;&#1074;&#1083;&#1077;&quot;</div>
+</div>
+</div>
+
+</body>
+<!--  SyntaxHighlighter resources:  should be included at end of body -->
+<link rel="stylesheet" type="text/css" href="./style/sh-3.0.83/shCore.css"/>
+<link rel="stylesheet" type="text/css" href="./style/sh-3.0.83/shThemeRDark.css"/>
+<script language="javascript" src="./js/sh-3.0.83/shCore.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushBash.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushCss.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushDiff.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushGroovy.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushJava.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushJScript.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushPlain.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushPython.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushRuby.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushScala.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushXml.js"></script>
+<script language="javascript" src="./js/shBrushBdd.js"></script>
+<script type="text/javascript">
+    SyntaxHighlighter.defaults['gutter'] = false;
+    SyntaxHighlighter.defaults['toolbar'] = false;    
+    SyntaxHighlighter.all();
+</script>
+</html>
