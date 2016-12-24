@@ -38,6 +38,7 @@ public class RozetkaTestSteps extends WebDriverSetup {
 
     @Given("I open affordable smartphones section")
     public void openAffordableSmartphones(){
+        smartphonesPage.expandClassBlock();
         smartphonesPage.clickObtainableSmartphonesLink();
     }
 
