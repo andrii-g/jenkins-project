@@ -1,9 +1,14 @@
 <story path="rozetka.story" title="">
 <scenario keyword="Scenario:" title="save cheapest devices data into file">
 <step outcome="successful">Given I open url &quot;http://rozetka.com.ua/&quot;</step>
-<step outcome="successful">And I open smartphones section</step>
-<step outcome="successful">And I open affordable smartphones section</step>
-<step outcome="successful">And I sort affordable smartphones by price ascending</step>
-<step outcome="successful">And I save data for 3 devices from 3 pages into file</step>
+<step outcome="failed" keyword="FAILED">And I open smartphones section<failure>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //a[@data-title=&apos;&#1056;&#1118;&#1056;&#181;&#1056;&#187;&#1056;&#181;&#1057;&#8222;&#1056;&#1109;&#1056;&#1029;&#1057;&#8249;, &#1056;&#1118;&#1056;&#8217; &#1056;&#1105; &#1057;&#1036;&#1056;&#187;&#1056;&#181;&#1056;&#1108;&#1057;&#8218;&#1057;&#1026;&#1056;&#1109;&#1056;&#1029;&#1056;&#1105;&#1056;&#1108;&#1056;&#176;&apos;]&apos; (tried for 15 second(s) with 500 MILLISECONDS interval)
+Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;
+System info: host: &apos;idea-PC&apos;, ip: &apos;192.168.0.101&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9), userDataDir=C:\Users\User\AppData\Local\Temp\scoped_dir9924_22}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=55.0.2883.87, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 640d2d088addf5421e6d933629fe31f2</failure></step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">And I open affordable smartphones section</step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">And I sort affordable smartphones by price ascending</step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">And I save data for 3 devices from 3 pages into file</step>
 </scenario>
 </story>

@@ -1,6 +1,6 @@
 #org.jbehave.core.embedder.StoryManager
-#Sun Dec 25 01:34:51 EET 2016
+#Sun Dec 25 17:58:01 EET 2016
 threads=1
-total=115000
-threadAverage=115000
-rozetka.story=115000
+total=59000
+threadAverage=59000
+rozetka.story=59000

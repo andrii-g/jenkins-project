@@ -1,0 +1,11 @@
+pages\BasePage.class
+pages\PhonesPage.class
+pages\SmartphonesPage.class
+pages\StartPage.class
+setup\JbehaveSetup.class
+setup\DBHelper.class
+steps\RozetkaTestSteps.class
+pages\ProductCartPage.class
+setup\WebDriverSetup.class
+setup\PropertiesReader.class
+TestRunner.class
